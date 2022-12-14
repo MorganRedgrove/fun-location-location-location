@@ -1,0 +1,22 @@
+{
+  "name": "fun-location-location-location",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorganRedgrove/fun-location-location-location.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MorganRedgrove/fun-location-location-location/issues"
+  },
+  "homepage": "https://github.com/MorganRedgrove/fun-location-location-location#readme",
+  "devDependencies": {
+    "jest": "^29.3.1"
+  }
+}
