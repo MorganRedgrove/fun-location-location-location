@@ -24,7 +24,7 @@ describe("updateLocation", function() {
             { name: 'Tao', age: 47, location: 'manchester' }
             ]
         updateLocation(inputArray)
-        expect(inputArray).not.toBe(copyInputArray)
+        expect(inputArray).toEqual(copyInputArray)
     })
     test("function inserts 'remote' for each element which does not have a location property", function() {
         let inputArray = [

@@ -1,5 +1,5 @@
 function updateLocation(array) {
-    return array?.map(element => {
+    return array?.map(({...element}) => {
         if (element.location === undefined) {
             element.location = "remote"
         }
